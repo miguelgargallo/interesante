@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tipografia -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+    <title>GoMommy!!</title>
+</head>
+<body>
+    <h1>GoMommy !!</h1>
+    <section class="datos">
+        <div class="container">
+            <div class="formulario">
+                <input class="nombre" type="text" id="nombre-dominio" placeholder="Escribe un Nombre para tu Dominio">
+                <button class="btnComprar" id="btn-comprar">Comprar</button>
+            </div>
+        </div>
+    </section>
+    <section id="m-datos" class="mostrarDatos">
+        <div class="container">
+            <div id="display-anual" class="grupoCosto">
+                <div class="anual">
+                    <p class="costo">Tu Costo Total Anual es de: </p><span id="costo-anual" class="costoAnual"></span>
+                </div>
+                <div class="mensual">
+                    <p class="costo">Tu Costo Total Mensual es de: </p><span id="costo-mensual" class="costoAnual"></span>
+                </div>
+            </div>
+            <div id="listado" class="container"></div>
+        </div>
+    </section>
+
+    <script defer src="main.js"></script>
+</body>
+</html>
